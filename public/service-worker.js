@@ -2,14 +2,13 @@ const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
   "/",
-  "/index.html",
-  "style.css",
-  "/icons/icon-192x192.png",
-  "/manifest.webmanifest",
-  "/styles.css",
-  "/icons/icon-512x512.png",
+  "/db.js",
   "/index.js",
-  "/db.js"
+  "/index.html",
+  "/styles.css",
+  "/manifest.webmanifest",
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png",
 ];
 
 self.addEventListener("install", function (evt) {
